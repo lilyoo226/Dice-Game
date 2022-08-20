@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  text-align: center;
+  width: 400px;
+}
+
+.container {
+  width: auto;
+  
+  padding: 20px;
+}
+#message {
+  color: lightseagreen;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.players {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#player1 h1 {
+  font-size: 30px;
+}
+
+#player2 h1 {
+  font-size: 30px;
+}
+.dice {
+  font-weight: bold;
+  background-color: rgb(240, 171, 115);
+  border-radius: 10px;
+  padding:20px 0;
+  margin: 5px;
+  font-size: 50px;
+}
+.active {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 019) ;
+}
+button{
+  border: none;
+  background-color: lightcoral;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+.btnn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;align-items: center;
+  margin: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+button:active{
+  background-color: lightpink;
+}
+#resetBtn{
+  display: none;
+}
+a{
+  
+  text-decoration: none;
+  border: none;
+  background-color: lightseagreen;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 15px;
+}
